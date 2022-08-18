@@ -24,7 +24,7 @@ nav {
   top: 114px;
   left: 24px;
   font-weight: 700;
-  font-size: 50px;
+  font-size: 30px;
   line-height: 52px;
   align-items: center;
   color: #172b4d;
@@ -54,4 +54,10 @@ body {
 .socials {
   display: flex;
   gap: 20px;
+  padding: 1px;
+  list-style-type: none;
+}
+
+.text-3 {
+  color: #7f8cff;
 }
