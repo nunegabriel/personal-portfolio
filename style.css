@@ -62,7 +62,6 @@ body {
 }
 
 .land {
-  /* background-image: url(/img/header-background-mobile.png); */
   border-bottom-left-radius: 80px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -71,7 +70,7 @@ body {
 }
 
 .land-2 {
-  background-image: url(/img/back.svg);
+  background-image: url(./img/back.svg);
   background-repeat: no-repeat;
   height: 618px;
   background-size: cover;
@@ -252,7 +251,7 @@ body {
   margin-left: 10px;
 }
 
-.frame-t {
+.frame-t{
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
