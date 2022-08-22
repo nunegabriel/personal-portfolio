@@ -1,5 +1,5 @@
 # MY PORTFOLIO
-> This is my personal portfolio
+> This is my personal portfolio highlighting my works and the programming languages I use.
 
 
 ## Built With
@@ -7,49 +7,29 @@
 - CSS
 - Html
 
-<!--  
-## Live Demo (if available)
 
-[Live Demo Link](https://livedemo.com) -->
+ ## Getting Started
 
+> To get this locally 
+- run in your terminal git clone https://github.com/nunegabriel/personal-portfolio 
+- cd to the local directory
+- open the index.html
 
-<!-- ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.** -->
-
-
-<!-- To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-### Setup
-
-### Install
-
-### Usage
-
-### Run tests
-
-### Deployment
+ To get a local copy up and running follow these simple example steps.
 
 
 
 ## Authors
 
-👤 **Author1**
+👤 **Author**
 
 - GitHub: [@githubhandle](https://github.com/nunegabriel)
 - Twitter: [@twitterhandle](https://twitter.com/_cornrow)
-<!-- - LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
-<!-- 👤 **Author2** -->
 
-<!-- - GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle) -->
 
-## 🤝 Contributing
+
+🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -69,4 +49,3 @@ Give a ⭐️ if you like this project!
 
 This project is [MIT](./MIT.md) licensed.
 
-<!-- _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._ -->
