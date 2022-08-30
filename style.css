@@ -311,3 +311,11 @@ body {
   padding-top: 200px;
 
 }
+.contact-info {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+  line-height: 52px;
+}
