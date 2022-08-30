@@ -289,3 +289,13 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+
+.footer {
+  background-color: #6070ff;
+  border-top-left-radius: 250px;
+}
+
+.foot-image {
+  background-image: url(/img/back.svg);
+  background-repeat: no-repeat;
+}
