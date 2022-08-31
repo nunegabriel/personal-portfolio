@@ -292,7 +292,7 @@ body {
 
 .footer {
   background-color: #6070ff;
-  background-image: url(/img/back.svg);
+  background-image: url(./img/back.svg);
   border-top-left-radius: 250px;
   background-size: cover;
   background-repeat: no-repeat;
