@@ -16,6 +16,10 @@ nav {
   color: #6070ff;
 }
 
+.rotate {
+  transoform: rotate(45deg);
+}
+
 .container {
   display: flex;
   padding: 30px;
