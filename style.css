@@ -344,8 +344,6 @@ body {
   border-top-left-radius: 150px;
   background-size: cover;
   background-repeat: no-repeat;
-  margin: auto;
-  position: relative;
   height: 100%;
 }
 
@@ -588,7 +586,6 @@ ul {
     border-top-left-radius: 50px;
     background-image: url(./img/contactformshapes-mobile.png);
     background-size: cover;
-    width: 380px;
   }
 
   .land-2 {
