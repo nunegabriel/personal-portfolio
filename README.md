@@ -17,8 +17,6 @@
 
  To get a local copy up and running follow these simple example steps.
 
-## Live Demo
--Link: (https://nunegabriel.github.io/personal-portfolio/)
 
 
 ## Authors
