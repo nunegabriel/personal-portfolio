@@ -12,27 +12,37 @@
 
 <body>
     <main>
+        <header>
+            <nav>
+                <a href="#headline" id="gabriel">Gabriel</a>
+                <ul class="tab tab-nav">
+                    <li class="tab-link">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="tab-link">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="tab-link">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="hamburger ham" id="hamburger">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+            </nav>
+            <nav class="curtain curtain-anim" id="curtain">
+                <ul class="tab-items">
+                    <li id="nav1"><a href="#portfolio" class="mobile-links">Portfolio</a></li>
+                    <li id="nav2"><a href="#about" class="mobile-links">About</a></li>
+                    <li id="nav3"><a href="#contact" class="mobile-links">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
         <section class="land">
             <section class="land-2">
-                <header>
-                    <nav class="navbar">
-                        <a class="logo" href="#">Gabriel</a>
-
-
-                        <ul class="menulinks">
-                            <li class="icon"> <img src="./img/icon.png" alt="hamburger-icon" /></li>
-                            <li class="nav-l"><a class="lk" href="#">Portoflio</a></li>
-                            <li class="nav-l"><a class="lk" href="#">About</a></li>
-                            <li class="nav-l"><a class="lk" href="#">Contact</a></li>
-
-                        </ul>
-
-
-
-
-                        <!-- <img class="icon" src="./img/icon.png" alt="hamburger-icon" /> -->
-                    </nav>
-                </header>
+                
                 <section class="container">
                     <h1 class="primary-text">
                         I’m Gabriel <br> Glad
@@ -145,9 +155,6 @@
             </section>
         </div>
 
-        
-
-
         <div class="working-cards">
             <section class="card-1">
                 <div class="card-items">
@@ -238,18 +245,7 @@
 
         </div>
 
-
-
-
-
-
-
-
-
-
-
-
-        <section class="About-Me">
+        <section class="about-me">
             <div class="about-content">
                 <h2 class="about">
                     About<br>Myself
@@ -277,7 +273,7 @@
             </div>
 
             <div class="lang-section">
-                <div class="Languages">
+                <div class="languages">
                     <p class="lang-title">
                         Language
                     </p>
@@ -314,14 +310,14 @@
                     </li>
                 </ul>
 
-                <div class="Languages hr">
+                <div class="languages hr">
                     <p class="lang-title">
                         Frameworks
                     </p>
                     <img class="arrow" alt="arrow" src="./img/arrow.png">
                 </div>
 
-                <div class="Languages hr">
+                <div class="languages hr">
                     <p class="lang-title">
                         Skills
                     </p>
@@ -331,34 +327,32 @@
         </section>
     </main>
 
-<section class="footer">
-    <div class="foot-image">
-        <h3 class="contactme">
-            Contact me
-        </h3>
-        <p class="contact-info">
-            If you have an application you are interested in developing,
-            a feature that you need built or a project that needs coding.
-            I’d love to help with it
-        </p>
-        <form action="https://formspree.io/f/xnqrnyla" class="contact-form" method="POST">
-            <ul class="form-item">
-                <li><input type="text" placeholder="username" maxlength="30" class="username" name="username" required>
-                </li>
-                <li><input type="email" placeholder="Enter email" name="email" class="email" required></li>
-                <li><textarea class="message" maxlength="500" placeholder="Write your message here" required></textarea>
-                </li>
-                <li> <button class="bton get-intouch form-button" type="submit">Get It Touch</button></li>
+    <section class="footer">
+        <div class="foot-image">
+            <h3 class="contactme">
+                Contact me
+            </h3>
+            <p class="contact-info">
+                If you have an application you are interested in developing,
+                a feature that you need built or a project that needs coding.
+                I’d love to help with it
+            </p>
+            <form action="https://formspree.io/f/xnqrnyla" class="contact-form" method="POST">
+                <ul class="form-item">
+                    <li><input type="text" placeholder="username" maxlength="30" class="username" name="username"
+                            required>
+                    </li>
+                    <li><input type="email" placeholder="Enter email" name="email" class="email" required></li>
+                    <li><textarea class="message" maxlength="500" placeholder="Write your message here"
+                            required></textarea>
+                    </li>
+                    <li> <button class="bton get-intouch form-button" type="submit">Get It Touch</button></li>
 
-            </ul>
-        </form>
-    </div>
-</section>
+                </ul>
+            </form>
+        </div>
+    </section>
+    <script src="app.js"></script>
 </body>
-
-
-
-
-
 
 </html>
