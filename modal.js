@@ -1,6 +1,6 @@
 const portfolio = [
   {
-    cardClass: 'card1',
+    cardClass: 'working-cards card-1',
     cardTitle: 'Tonic',
     cardDesktopImage: './img/dec1.png',
     cardMobileImage: './img/SnapshootPortfolio(1).png',
@@ -17,7 +17,7 @@ const portfolio = [
     modalSourceButtonIcon: '',
   },
   {
-    cardClass: 'working-cards',
+    cardClass: 'working-cards card-1',
     cardTitle: 'Multi-Post Stories',
     cardDesktopImage: './img/Dec2.png',
     cardMobileImage: './img/Snapshoot.png',
@@ -34,7 +34,7 @@ const portfolio = [
     modalSourceButtonIcon: '',
   },
   {
-    cardClass: 'works-card card3',
+    cardClass: 'working-cards card-1',
     cardTitle: 'Tonic',
     cardDesktopImage: 'img/Snapshoot-Portfolio3.png',
     cardMobileImage: 'img/Snapshoot-Portfolio-Mobile3.png',
@@ -51,7 +51,7 @@ const portfolio = [
     modalSourceButtonIcon: '',
   },
   {
-    cardClass: 'works-card card4 card-reverse',
+    cardClass: 'working-cards card-1',
     cardTitle: 'Multi-Post Stories',
     cardDesktopImage: 'img/Snapshoot-Portfolio4.png',
     cardMobileImage: 'img/Snapshoot-Portfolio-Mobile4.png',
