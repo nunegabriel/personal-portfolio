@@ -161,7 +161,9 @@ openmodal.forEach((element) => {
             </ul>
             <div class="modal-btns">
               <div class="modal-hr">
+
                 <button class="btn">See Live <img src="img/live-icon.svg" alt="live"></button>
+
                 <button class="btn">See Source <img src="img/github-icon.svg" alt="github"></button>
               </div>
             </div>  

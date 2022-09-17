@@ -16,6 +16,20 @@ body {
   overflow: hidden;
 }
 
+.contact-element {
+  padding: 15px 38px 15px 16px;
+  margin-bottom: 20px;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  width: 327px;
+  height: 48px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+}
+
 ul {
   list-style: none;
 }
@@ -93,6 +107,17 @@ nav {
 
 .change .bar2 {
   opacity: 0;
+}
+
+.contact-text {
+  margin-bottom: 55px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .change .bar3 {
@@ -577,17 +602,6 @@ nav {
   margin-top: -50px;
 }
 
-.contact-text {
-  margin-bottom: 55px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -615,6 +629,15 @@ label {
   font-size: 17px;
   padding: 14px 37px 13px 15px;
   line-height: 20px;
+}
+
+.contact-heading {
+  color: #fff;
+  padding-top: 103px;
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
 }
 
 textarea {
@@ -674,6 +697,14 @@ textarea {
 @media only screen and (min-width: 768px) {
   .mobile {
     display: none;
+  }
+
+  .contact-element {
+    width: 447px;
+  }
+
+  .contact-text {
+    width: 569px;
   }
 
   header {
@@ -914,10 +945,6 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .contact-text {
-    width: 569px;
   }
 
   .field {
