@@ -128,6 +128,7 @@
         </div>
     </section>
 
+  
     <section class="contact" id="contact">
         <h2 class="c-title">
             Contact Me
@@ -144,18 +145,21 @@
             <label for="contact-email">Email</label>
             <input type="email" name="contact-mail" placeholder="Your Email" class="field" id="contact-email"
                 required>
-            <label for="contact-message">
+            <label for="form-message">
                 Message
             </label>
             <textarea name="contact-message" id="contact-message" maxlength="500" placeholder="Write your message here"
-                required></textarea>
+                required>
+            </textarea>
+            <div id="error-message">error</div>
             <button type="submit" class="btn footer-button">
                 Get In Touch
             </button>
         </form>
     </section>
+
     <script src="app.js"></script>
-    <script src="modal.js"></script>
+    <script src="validate.js"></script>
 
 </body>
 
