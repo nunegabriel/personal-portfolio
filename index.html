@@ -116,7 +116,7 @@
                         </p>
                         </li>
                     </ul>
-                </li>
+                </li> 
                 <li class="stack-set hr">
                     <p class="stack-set-t dropdown-right">Frameworks</p>
                     <img src="img/right-arrow.png" alt="drop down">
@@ -130,6 +130,7 @@
         </div>
     </section>
 
+  
     <section class="contact" id="contact">
         <h2 class="c-title">
             Contact Me
@@ -137,7 +138,6 @@
         <p class="contact-text">If you have an application you are interested in developing, a feature that you need
             built or a project that needs coding. I’d love to help with it 
         </p>
-
         <form class="contact-form" action="https://formspree.io/f/xnqrnyla" method="post" id="form">
             <label for="contact-name">
                 Name
@@ -147,18 +147,21 @@
             <label for="contact-email">Email</label>
             <input type="email" name="contact-mail" placeholder="Your Email" class="field" id="contact-email"
                 required>
-            <label for="contact-message">
+            <label for="form-message">
                 Message
             </label>
             <textarea name="contact-message" id="contact-message" maxlength="500" placeholder="Write your message here"
-                required></textarea>
+                required>
+            </textarea>
+            <div id="error-message">error</div>
             <button type="submit" class="btn footer-button">
                 Get In Touch
             </button>
         </form>
     </section>
+
     <script src="app.js"></script>
-    <script src="modal.js"></script>
+    <script src="validate.js"></script>
 
 </body>
 
