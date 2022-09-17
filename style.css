@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap";
 
 * {
   box-sizing: border-box;
@@ -9,7 +9,7 @@
 
 body {
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .overflow {
@@ -107,7 +107,7 @@ nav {
   left: 0;
   width: 100vw;
   height: 100vh;
-  background-color: rgba(55, 70, 255, 0.8);
+  background-color: rgb(55 70 255 / 80%);
   backdrop-filter: blur(5px);
   transition: 0.6s;
 }
@@ -132,12 +132,12 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  background-image: url(img/headline-bg.svg);
+  background-image: url("img/headline-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 0 0 0 70px;
   height: 718px;
-  padding: 0 24px 114px 24px;
+  padding: 0 24px 114px;
 }
 
 .headline-title {
@@ -146,14 +146,14 @@ nav {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
-  margin: 206px 24px 12px 24px;
+  margin: 206px 24px 12px;
 }
 
 .headline-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  margin: 0 24px 12px 24px;
+  margin: 0 24px 12px;
   color: #344563;
 }
 
@@ -236,7 +236,7 @@ nav {
   margin-right: 12px;
 }
 
-.skillPost {
+.skillpost {
   margin-right: 12px;
   font-weight: 600;
   font-size: 13px;
@@ -287,10 +287,9 @@ nav {
   height: 220px;
 }
 
-
 .btn {
   color: #396df2;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-size: 17px;
   font-weight: 500;
   line-height: 24px;
@@ -307,7 +306,7 @@ nav {
 
 .btn:hover {
   background: #6070ff;
-  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgb(64 83 252 / 24%);
   color: #fff;
 }
 
@@ -334,14 +333,14 @@ nav {
 .modal-window {
   z-index: 101;
   position: fixed;
-  padding: 60px 16px 50px 16px;
+  padding: 60px 16px 50px;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   overflow: auto;
   backdrop-filter: blur(3px);
-  background-color: rgba(193, 199, 208, 0.3);
+  background-color: rgb(193 199 208 / 30%);
 }
 
 .modal-window.hidden {
@@ -399,7 +398,6 @@ nav {
   width: 124px;
 }
 
-
 .modal-img {
   margin: 0 auto;
   width: 90%;
@@ -409,7 +407,7 @@ nav {
   display: flex;
   flex-direction: column;
   background-color: #fff;
-  padding: 12px 16px 12px 16px;
+  padding: 12px 16px;
 }
 
 .modal-work-info {
@@ -571,7 +569,7 @@ nav {
   flex-direction: column;
   align-items: center;
   background-color: #6070ff;
-  background-image: url(img/contact-form-shapes-mobile.svg);
+  background-image: url("img/contact-form-shapes-mobile.svg");
   background-position: right;
   border-top-left-radius: 60px;
   background-repeat: no-repeat;
@@ -606,16 +604,16 @@ label {
 }
 
 .field {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   margin-bottom: 20px;
   border: 1px solid #cfd8dc;
   border-radius: 8px;
   width: 327px;
-  height: 48px; 
+  height: 48px;
   font-size: 17px;
-  padding: 14px 37px 13x 15px;
+  padding: 14px 37px 13px 15px;
   line-height: 20px;
 }
 
@@ -626,7 +624,7 @@ textarea {
   width: 327px;
   height: 170px;
   padding: 15px 38px 15px 16px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -656,7 +654,7 @@ textarea {
 
 .footer-button {
   float: left;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 1rem;
@@ -664,7 +662,7 @@ textarea {
   height: 48px;
   width: 140px;
   background-color: #fff;
-  padding: 12px 16px 12px 16px;
+  padding: 12px 16px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -679,7 +677,7 @@ textarea {
   }
 
   header {
-    filter: drop-shadow(0 0 16px rgba(64, 83, 252, 0.24));
+    filter: drop-shadow(0 0 16px rgb(64 83 252 / 24%));
   }
 
   .overlay {
@@ -704,7 +702,7 @@ textarea {
     height: 850px;
     width: 99vw;
     flex-direction: column;
-    background-image: url(img/headline-bg-desktop.svg);
+    background-image: url("img/headline-bg-desktop.svg");
   }
 
   .headline-title {
@@ -720,7 +718,7 @@ textarea {
     margin: 0 0 16px 260px;
   }
 
-    .works {
+  .works {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
@@ -741,7 +739,7 @@ textarea {
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    margin: 0 260px 12px 260px;
+    margin: 0 260px 12px;
   }
 
   .tile-image {
@@ -774,7 +772,7 @@ textarea {
     line-height: 24px;
   }
 
-    .modal-window {
+  .modal-window {
     padding: 77px 142px;
   }
 
@@ -821,7 +819,7 @@ textarea {
     margin-left: 24px;
   }
 
-  .skillPost {
+  .skillpost {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -912,7 +910,7 @@ textarea {
 
   .contact {
     background-color: #6070ff;
-    background-image: url(img/contact-form-shapes.svg);
+    background-image: url("img/contact-form-shapes.svg");
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -925,5 +923,4 @@ textarea {
   .field {
     width: 447px;
   }
-  
 }
