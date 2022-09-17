@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <nav>
+                <a href="#headline" id="gabriel">Gabriel</a>
+                <ul class="desktop desktop-nav">
+                    <li class="nav-links">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="nav-links">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+                <div class="menu-bars mobile" id="menu-bars">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+            </nav>
+            <nav class="overlay overlay-slide-left" id="overlay">
+                <ul class="mobile-nav-items">
+                    <li id="nav1"><a href="#portfolio" class="nav-mobile-links">Portfolio</a></li>
+                    <li id="nav2"><a href="#about" class="nav-mobile-links">About</a></li>
+                    <li id="nav3"><a href="#contact" class="nav-mobile-links">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section class="headline" id="headline">
+            <h1 class="headline-title">I’m Gabriel<br>Glad to see you! </h1>
+            <p class="headline-text">I’m a software developer! I can help you build a product, feature or website. Look
+                through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.</p>
+            <a class="headline-link" href="#">
+                <h3>LET'S CONNECT</h3>
+            </a>
+            <ul class="socials">
+                <li><a href="#"><img src="img/twitter-icon.png" alt="twitter icon"></a></li>
+                <li><a href="#"><img src="img/linkedin-icon.png" alt="linkedin icon"></a></li>
+                <li><a href="#"><img src="img/medium-icon.png" alt="medium icon"></a></li>
+                <li><a href="#"><img src="img/git-icon.png" alt="github icon"></a></li>
+                <li><a href="#"><img src="img/angellist-icon.png" alt="angellist icon"></a></li>
+            </ul>
+        </section>
+    </main>
+    <section id="portfolio" class="works">
+        <section></section>
+        <section></section>
+        <section></section>
+        <section></section>
+    </section>
+    <section class="about" id="about">
+        <div class="head-info">
+            <h2 class="about-title">About<br>Myself</h2>
+            <p class="about-info">Hello I’m a software developer! I can help you build a product , feature or website
+                Look through some of my work and experience! If you like what you see and have a project you need coded,
+                don’t hestiate to contact me.</p>
+            <a class="about-link" href="#">
+                <h3>LET'S CONNECT</h3>
+            </a>
+            <ul class="socials-about">
+                <li><a href="#">
+                        <img src="img/twitter-icon.png" alt="twitter"></a>
+                </li>
+                <li><a href="#">
+                        <img src="img/linkedin-icon.png" alt="linkedin"></a>
+                </li>
+                <li><a href="#">
+                        <img src="img/medium-icon.png" alt="medium"></a>
+                </li>
+                <li><a href="#">
+                        <img src="img/git-icon.png" alt="github"></a>
+                </li>
+                <li><a href="#">
+                        <img src="img/angellist-icon.png" alt="media"></a>
+                </li>
+            </ul>
+            <button class="btn resume-button" type="button">Get my resume</button>
+        </div>
+        <div class="stack stack-list">
+            <ul>
+                <li>
+                    <div class="stack-set stack-set-t">
+                        <p >Languages</p>
+                        <img class="drop-down" src="img/down-arrow.png" alt="arrow">
+                    </div>
+                    <ul class="prog-langs">
+                        <li class="prog-lang">
+                            <img class="prog-lang-image" src="img/javascript.png" alt="javascript">
+                            <p class="prog-lang-names">JavaScript</p>
+                        </li>
+                        <li class="prog-lang">
+                            <img class="prog-lang-image prog-lang-names" src="img/html5.png" alt="html">
+                            <p>
+                                HTML
+                            </p>
+                        </li>
+                        <li class="prog-lang">
+                            <img class="prog-lang-image prog-lang-names" src="img/css3.png" alt="css">
+                            <p>
+                            CSS
+                        </p>
+                        </li>
+                    </ul>
+                </li>
+                <li class="stack-set hr">
+                    <p class="stack-set-t dropdown-right">Frameworks</p>
+                    <img src="img/right-arrow.png" alt="drop down">
+                </li>
+                <li class="stack-set hr">
+                    <p class="stack-set-t">Skills</p>
+                    <img class="dropdown-right" src="img/right-arrow.png" alt="arrow icon">
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="c-title">
+            Contact Me
+        </h2>
+        <p class="contact-text">If you have an application you are interested in developing, a feature that you need
+            built or a project that needs coding. I’d love to help with it 
+        </p>
+
+        <form class="contact-form" action="https://formspree.io/f/xnqrnyla" method="post" id="form">
+            <label for="contact-name">
+                Name
+            </label>
+            <input type="text" name="contact-name" placeholder="Your Name" class="field" id="contact-name"
+                maxlength="30" required>
+            <label for="contact-email">Email</label>
+            <input type="email" name="contact-mail" placeholder="Your Email" class="field" id="contact-email"
+                required>
+            <label for="contact-message">
+                Message
+            </label>
+            <textarea name="contact-message" id="contact-message" maxlength="500" placeholder="Write your message here"
+                required></textarea>
+            <button type="submit" class="btn footer-button">
+                Get In Touch
+            </button>
+        </form>
+    </section>
+    <script src="app.js"></script>
+    <script src="modal.js"></script>
+
+</body>
+
+</html>
