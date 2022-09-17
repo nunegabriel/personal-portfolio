@@ -23,13 +23,12 @@ body {
   border-radius: 8px;
   width: 327px;
   height: 48px;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
   line-height: 20px;
 }
-
 
 ul {
   list-style: none;
@@ -49,11 +48,6 @@ header {
   width: 100%;
   top: 0;
   z-index: 1;
-}
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
 }
 
 .desktop-nav {
@@ -608,17 +602,6 @@ nav {
   margin-top: -50px;
 }
 
-.contact-text {
-  margin-bottom: 55px;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  margin-left: 24px;
-  margin-right: 24px;
-}
-
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -656,12 +639,6 @@ label {
   font-size: 40px;
   line-height: 52px;
 }
-
-.contact-form {
-  display: flex;
-  flex-direction: column;
-}
-
 
 textarea {
   margin-bottom: 20px;
@@ -730,12 +707,6 @@ textarea {
     width: 569px;
   }
 
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
   header {
     filter: drop-shadow(0 0 16px rgb(64 83 252 / 24%));
   }
@@ -772,12 +743,6 @@ textarea {
     line-height: 60px;
     letter-spacing: 0.24px;
     color: #091e42;
-  }
-
-  .contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
   }
 
   .headline-link {
@@ -980,10 +945,6 @@ textarea {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-
-  .contact-text {
-    width: 569px;
   }
 
   .field {
