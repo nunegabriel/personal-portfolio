@@ -1,16 +1,16 @@
 const form = document.getElementById('form');
-const email = document.getElementById('contact-email');
 const userName = document.getElementById('contact-name');
-const message = document.getElementById('form-message');
+const email = document.getElementById('contact-email');
+const message = document.getElementById('contact-message');
 const error = document.getElementById('error-message');
 
 error.style.visibility = 'hidden';
 
-function formValidate(e) {
+function formValidate(event) {
   if (email.value !== email.value.toLowerCase()) {
     error.style.visibility = 'visible';
-    error.innerHTML = 'Please enter your email address in Lowercase.';
-    e.preventDefault();
+    error.innerHTML = 'Please enter your email address in lowercase.';
+    event.preventDefault();
   } else {
     error.style.visibility = 'hidden';
   }
@@ -18,18 +18,18 @@ function formValidate(e) {
 
 form.addEventListener('submit', formValidate);
 
-function storeInput() {
+function storeData() {
   const user = {
-    UserEmail: email.value,
     UserName: userName.value,
+    UserEmail: email.value,
     UserText: message.value,
   };
   localStorage.setItem('user', JSON.stringify(user));
 }
 
-userName.addEventListener('focusout', storeInput);
-email.addEventListener('focusout', storeInput);
-message.addEventListener('focusout', storeInput);
+userName.addEventListener('focusout', storeData);
+email.addEventListener('focusout', storeData);
+message.addEventListener('focusout', storeData);
 
 const data = JSON.parse(localStorage.getItem('user'));
 
