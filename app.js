@@ -27,9 +27,9 @@ const portfolioSection = document.getElementById('portfolio');
 const portfolio = [
   {
     cardClass: 'tile card-1',
-    cardTitle: 'Tonic',
-    desktopImage: 'img/1.png',
-    mobileImage: 'img/1m.png',
+    cardTitle: 'Football Summit',
+    desktopImage: 'img/fb.png',
+    mobileImage: 'img/fb.png',
     cardDetails: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
     portfolioStack: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     btnInfo: 'See More',
@@ -41,6 +41,8 @@ const portfolio = [
     skillpost: 'Back End Dev',
     year: '2015',
     popupbtnIcon: '',
+    popupLive: 'https://nunegabriel.github.io/Football-summit-2022',
+    gitLink: 'https://github.com/nunegabriel/Football-Summit.git'
   },
   {
     cardClass: 'tile card-2 card-5',
@@ -117,7 +119,7 @@ Array.from(portfolioSection.children).forEach((child, num) => {
         <li class="tag">${portfolio[num].portfolioStack[1]}</li>
         <li class="tag">${portfolio[num].portfolioStack[2]}</li>
       </ul>
-      <button class="btn btn-card" id="${[num]}">${portfolio[num].btnInfo}</button>
+      <button class="btn btn-card" id="${[num]}">${portfolio[num].btnInfo} </button>
     </div>
   </div>
  `;
@@ -161,8 +163,11 @@ openmodal.forEach((element) => {
             </ul>
             <div class="modal-btns">
               <div class="modal-hr">
-                <button class="btn">See Live <img src="img/live-icon.svg" alt="live"></button>
-                <button class="btn">See Source <img src="img/github-icon.svg" alt="github"></button>
+              <a href="https://nunegabriel.github.io/Football-summit-2022/" target="_blank">
+                  <button class="btn">See Live <img src="img/live-icon.svg" alt="live"></button>
+                </a>
+                <a href = "https://github.com/nunegabriel/Football-summit-2022">
+                <button class="btn">See Source <img src="img/github-icon.svg" alt="github"></button></a>
               </div>
             </div>  
           <div>
