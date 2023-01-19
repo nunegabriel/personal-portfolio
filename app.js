@@ -25,75 +25,81 @@ navItems.forEach((trig) => {
 const portfolioSection = document.getElementById('portfolio');
 
 const portfolio = [
-  {
-    cardClass: 'tile card-1',
-    cardTitle: 'Football Summit',
-    desktopImage: 'img/fb.png',
-    mobileImage: 'img/fb.png',
-    cardDetails: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    portfolioStack: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
-    btnInfo: 'See More',
-    popUpinfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
-    popupSeebtnInfo: 'See Live',
-    popupIcon: '',
-    popupDetails: 'See Source',
-    company: 'CANOPY',
-    skillpost: 'Back End Dev',
-    year: '2015',
-    popupbtnIcon: '',
-    popupLive: 'https://nunegabriel.github.io/Football-summit-2022',
-    gitLink: 'https://github.com/nunegabriel/Football-Summit.git'
-  },
-  {
+    {
     cardClass: 'tile card-2 card-5',
-    cardTitle: 'Multi-Post Stories',
-    desktopImage: './img/2.png',
-    skillpost: 'Back End Dev',
-    year: '2015',
-    cardDetails: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    cardTitle: 'coinX',
+    desktopImage: './img/coinx.png',
+    skillpost: 'Frontend Dev',
+    year: '2022',
+    cardDetails: 'coinX is a web application that provides latest rates of crypto currencies. This aplication includes various details of crypto currencies. It was built with the coincap API',
     portfolioStack: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     btnInfo: 'See More',
-    popUpinfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    popUpinfo: 'coinX is a web application that provides latest rates of crypto currencies. This aplication includes various details of crypto currencies. It was built with the coincap API',
     popupSeebtnInfo: 'See Live',
     popupIcon: '',
-    mobileImage: 'img/2m.png',
-    company: 'CANOPY',
+    mobileImage: 'img/coinx.png',
+    company: 'COINX',
     popupDetails: 'See Source',
     popupbtnIcon: '',
+    popupLive: 'https://splendorous-tulumba-d36d87.netlify.app/',
+    gitLink: 'https://github.com/nunegabriel/XCoin'
   },
   {
     cardClass: 'tile card-3',
-    cardTitle: 'Tonic',
-    year: '2015',
-    cardDetails: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    portfolioStack: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+    cardTitle: 'BOOKSTORE',
+    year: '2022',
+    cardDetails: 'Bookstore is a simple web app that allows you to keep track of books.',
+    portfolioStack: ['html', 'css', 'javascript', 'github', 'react', 'bootstrap'],
     btnInfo: 'See More',
-    popUpinfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    popUpinfo: 'Bookstore is a simple web app that allows you to keep track of books',
     popupSeebtnInfo: 'See Live',
     popupIcon: '',
     popupDetails: 'See Source',
     popupbtnIcon: '',
-    desktopImage: 'img/3.png',
-    mobileImage: 'img/3m.png',
-    company: 'CANOPY',
+    desktopImage: 'img/bookstore.png',
+    mobileImage: 'img/bookstore.png',
+    company: 'BOOKSTORE',
     skillpost: 'Back End Dev',
+    popupLive: 'https://bhookstore.netlify.app/',
+    gitLink: 'https://github.com/nunegabriel/Bookstore'
   },
   {
     cardClass: 'tile card-4 card-5',
-    cardTitle: 'Multi-Post Stories',
-    desktopImage: 'img/4.png',
-    mobileImage: 'img/4m.png',
-    company: 'CANOPY',
+    cardTitle: 'PRIME MOVIES',
+    desktopImage: 'img/movied.png',
+    mobileImage: 'img/movied.png',
+    company: 'PRIME MOVIES',
     skillpost: 'Back End Dev',
-    year: '2015',
-    cardDetails: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    year: '2022',
+    cardDetails: 'This is a web application based on an external API. The external API provides data about TV shows..',
     portfolioStack: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
     btnInfo: 'See More',
-    popUpinfo: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry.',
+    popUpinfo: 'This is a web application based on an external API. The external API provides data about TV shows.',
     popupSeebtnInfo: 'See Live',
     popupIcon: '',
     popupDetails: 'See Source',
     popupbtnIcon: '',
+    popupLive: 'https://myaserkhan.github.io/JavaScript-API-based-webapp/dist/',
+    gitLink: 'https://github.com/myaserkhan/JavaScript-API-based-webapp'
+  },
+  {
+    cardClass: 'tile card-1',
+    cardTitle: 'Todo List',
+    desktopImage: 'img/todo1.png',
+    mobileImage: 'img/todo.png',
+    cardDetails: 'This is a simple app to keep track of activities.',
+    portfolioStack: ['html', 'css', 'javascript', 'github', 'ruby', 'bootstrap'],
+    btnInfo: 'See More',
+    popUpinfo: 'This is a simple app to keep track of activities.',
+    popupSeebtnInfo: 'See Live',
+    popupIcon: '',
+    popupDetails: 'See Source',
+    company: 'CANOPY',
+    skillpost: 'Back End Dev',
+    year: '2015',
+    popupbtnIcon: '',
+    popupLive: 'https://nunegabriel.github.io/toDo-list-app/dist/',
+    gitLink: 'https://github.com/nunegabriel/toDo-list-app'
   },
 ];
 
@@ -163,10 +169,10 @@ openmodal.forEach((element) => {
             </ul>
             <div class="modal-btns">
               <div class="modal-hr">
-              <a href="https://nunegabriel.github.io/Football-summit-2022/" target="_blank">
+              <a href="${portfolio[element.id].popupLive}" target="_blank">
                   <button class="btn">See Live <img src="img/live-icon.svg" alt="live"></button>
                 </a>
-                <a href = "https://github.com/nunegabriel/Football-summit-2022">
+                <a href = "${portfolio[element.id].gitLink}">
                 <button class="btn">See Source <img src="img/github-icon.svg" alt="github"></button></a>
               </div>
             </div>  
